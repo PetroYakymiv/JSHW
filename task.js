@@ -75,7 +75,7 @@ The function must be case-insensitive.*/
 
 function cursorCheck(str) { 
     for (let index = 0; index < str.length; index++) {
-        if (str.toLowerCase().includes('ostap') || str.toLowerCase().includes('roman')) {
+        if (str.toLowerCase().includes('ostap') || str.toLowerCase().includes('roman')|| str.indexOf('cursor') !== -1) {
             return true
         } else {
             return false
